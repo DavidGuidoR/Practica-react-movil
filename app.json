@@ -21,10 +21,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.guidodr.drawerapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBakK8czExMzwbTsQZ6sbU4xLkL1GxAanQ"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a31a70e-3f2c-4132-9816-287c4286af37"
+      }
     }
   }
 }
