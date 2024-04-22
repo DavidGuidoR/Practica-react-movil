@@ -41,7 +41,7 @@ const AcelerometerScreen = () => {
             <Text>y: {acceleration.y}</Text>
             <Text>z: {acceleration.z}</Text>
             <Button
-                title="Dictar valores en pantalla"
+                title="Dictar valores del acelerómetro"
                 onPress={() => Speech.speak(`X: ${acceleration.x.toFixed(3)}, Y: ${acceleration.y.toFixed(3)}, Z: ${acceleration.z.toFixed(3)}`)}
             />
         </View>
