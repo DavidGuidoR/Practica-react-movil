@@ -19,7 +19,7 @@ function HomeScreen() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const url = "http://192.168.100.9:3000/";
+        const url = "http://10.31.9.35:3000/negocio/";
         const response = await fetch(url);
         const json = await response.json();
         setDatos(json);
@@ -74,6 +74,8 @@ const styles = StyleSheet.create({
     fontFamily: 'monospace',
     fontSize: 20,
     marginHorizontal: 10,
+    borderBottom: 2,
+    color: '#9D9EB0'
   },
 });
 
